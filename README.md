@@ -3,8 +3,8 @@
 A production-ready full-stack web application with real user authentication, role-based access control, admin panel, and more.
 
 ## 🚀 Live Demo
-- **Frontend:** https://your-app.vercel.app
-- **Backend:** https://your-api.railway.app
+- **Frontend:** https://deknek-challenge-2.onrender.com/login
+- **Backend:** https://deknek-challenge.onrender.com/
 
 ## 🛠 Tech Stack
 | Layer | Technology |
