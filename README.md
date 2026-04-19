@@ -86,21 +86,6 @@ cd client && npm run dev
 
 Visit http://localhost:5173
 
-## 🌐 Deployment
-
-### Backend → Railway
-1. Push to GitHub
-2. Create project on [railway.app](https://railway.app) → Connect GitHub repo
-3. Set root directory to `server/`
-4. Add all environment variables from `server/.env`
-5. Railway auto-deploys → copy the live URL
-
-### Frontend → Vercel
-1. Import project on [vercel.com](https://vercel.com)
-2. Set root directory to `client/`
-3. Add environment variable: `VITE_API_URL=https://your-api.railway.app`
-4. Vercel auto-deploys → copy the live URL
-
 ## 📡 API Endpoints
 
 ### Auth (`/api/auth`)
