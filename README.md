@@ -74,27 +74,6 @@ cd ../client && npm install
 
 ### 3. Environment Variables
 
-**server/.env**
-```env
-PORT=5000
-NODE_ENV=development
-DATABASE_URL=postgresql://postgres:<password>@db.<project>.supabase.co:5432/postgres
-JWT_SECRET=change_this_to_a_long_random_string
-JWT_REFRESH_SECRET=change_this_to_another_long_random_string
-JWT_EXPIRES_IN=15m
-JWT_REFRESH_EXPIRES_IN=7d
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_gmail_app_password
-EMAIL_FROM="AuthApp <your_email@gmail.com>"
-CLIENT_URL=http://localhost:5173
-```
-
-**client/.env**
-```env
-VITE_API_URL=http://localhost:5000
-```
 
 ### 4. Run Locally
 ```bash
